@@ -62,6 +62,7 @@ export default function App() {
       <EuiProvider colorMode={theme}>
         <EuiThemeProvider modify={overrides}>
           <Routes>
+            //This is the login page
             <Route path="/login" element={<Login />} />
             <Route path="/create" element={<CreateMeeting />} />
             <Route path="/create1on1" element={<OneOnOneMeeting />} />
